@@ -3,9 +3,9 @@ import './y.less'
 import img from './assets/1.jpeg'
 const div = document.getElementById('app');
 
-div.innerHTML = `
-    <img src="${img}">
-`
+// div.innerHTML = `
+//     <img src="${img}">
+// `
 
 const button = document.createElement('button')
 button.innerText = '懒加载';
